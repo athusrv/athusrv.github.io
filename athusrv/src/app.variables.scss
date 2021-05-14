@@ -1,0 +1,44 @@
+$image-size: 70px;
+$tab-header-height: 48px;
+$side-padding: 16px;
+$toolbar-height: 56px;
+
+// Colors
+
+$color-1: #333;
+$color-2: #fff;
+$color-3: #ffeabe;
+$color-4: #cc944e;
+$color-5: whitesmoke;
+$color-6: #F2994A;
+$color-7: #F2C94C;
+$color-8: black;
+$color-9: #777;
+$color-10: rgba(black, .12); // Material Input Border Colors
+$color-11: gray;
+$color-12: #999;
+$color-13: #FAFAFA;
+$color-14: #b1b1b1;
+
+// Gradients
+
+$gradient-1: linear-gradient(139.63deg, $color-7 36.08%, $color-6 93.85%);
+$gradient-2: linear-gradient(to right, transparent, $color-2);
+
+// Clip-paths
+
+$clip-1: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+
+// Font-size
+
+$font-size-1:  12px;
+$font-size-2:  14px;
+$font-size-3:  16px;
+$font-size-4:  18px;
+$font-size-5:  20px;
+$font-size-6:  22px;
+$font-size-7:  24px;
+$font-size-8:  26px;
+$font-size-9:  28px;
+$font-size-10: 30px;
+$font-size-11: 32px;

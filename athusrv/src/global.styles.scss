@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import "fonts/fonts.css";
+@import "reset.css";
+@import "app.style";
+@import "app.variables";
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #EDF2F8;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+
+  &, *, * * {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  margin: 0;
+}

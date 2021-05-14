@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Aeonik';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('Aeonik-Air.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Aeonik';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('Aeonik-Thin.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Aeonik';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('Aeonik-Light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Aeonik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('Aeonik-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Aeonik';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('Aeonik-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Aeonik';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('Aeonik-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Aeonik';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('Aeonik-Black.otf') format('opentype');
+}
+
