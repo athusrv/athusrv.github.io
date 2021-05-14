@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Deploy to GH Actions
+      - name: Deploy to GH Pages
         uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.2
         with:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
@@ -24,7 +24,7 @@ jobs:
           # branch on which the angular build will be deployed
           deploy_branch: master # optional, default is gh-pages
           # The folder in which `ng build` provides its output. This is the folder which will be deployed to the `deploy_branch`.
-          # angular_dist_build_folder: dist/athusrv # optional, default is dist
+          angular_dist_build_folder: athusrv/dist # optional, default is dist
           # If the action should run 'ng lint'
           run_lint: false # optional
           # Will not fail the step if anything fails
