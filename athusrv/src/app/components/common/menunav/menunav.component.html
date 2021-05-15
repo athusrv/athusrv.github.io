@@ -1,0 +1,10 @@
+<div class="menunav-container">
+  <div
+    *ngFor="let item of items"
+    [id]="item.id"
+    class="menu-item"
+    [class.selected]="item.selected"
+    (click)="onSelectMenuItem(item)">
+    <h3>{{item.name}}</h3>
+  </div>
+</div>

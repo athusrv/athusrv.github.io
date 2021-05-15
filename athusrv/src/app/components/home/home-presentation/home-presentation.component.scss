@@ -1,0 +1,54 @@
+@import "src/app.style";
+
+home-presentation {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+  flex: 1 1 auto;
+
+  * {
+    line-height: 1;
+  }
+
+  .greeting {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: $primary;
+  }
+
+  .name {
+    font-size: 5rem;
+    color: $accent;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+
+  .role {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333333;
+    margin-top: 4px;
+  }
+
+  .description {
+    margin-top: 16px;
+    font-weight: 500;
+  }
+
+  .actions {
+    display: flex;
+    flex-flow: row;
+    margin: 48px 0 0 0;
+
+    button {
+      font-weight: bold;
+
+      &:last-child {
+        margin-left: 8px;
+        border: 2px $primary solid;
+        background: transparent;
+      }
+    }
+  }
+}
