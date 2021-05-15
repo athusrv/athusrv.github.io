@@ -1,4 +1,11 @@
 <div class="social-media-container">
-  <jam-icon mat-ripple icon="linkedin" [size]="32" [color]="color" [ngStyle]="{padding: padding + 'px'}"></jam-icon>
-  <jam-icon mat-ripple icon="github" [size]="32" [color]="color" [ngStyle]="{padding: padding + 'px'}"></jam-icon>
+  <jam-icon
+    *ngFor="let media of socialMedias"
+    mat-ripple
+    [icon]="media.icon"
+    [size]="32"
+    [color]="color"
+    [ngStyle]="{padding: padding + 'px'}"
+    (click)="onClick(media.url)"
+  ></jam-icon>
 </div>

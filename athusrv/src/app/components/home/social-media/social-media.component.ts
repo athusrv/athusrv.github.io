@@ -12,9 +12,24 @@ export class SocialMediaComponent implements OnInit {
   @Input()
   color?: string = 'black'
 
-  constructor() { }
+  socialMedias: { icon: string, url: string }[] = [
+    {
+      icon: 'linkedin',
+      url: 'https://www.linkedin.com/in/athusvieira/'
+    },
+    {
+      icon: 'github',
+      url: 'https://github.com/athusrv'
+    },
+  ]
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
 
+  onClick(url: string) {
+    window.open(url)
+  }
 }
