@@ -1,7 +1,7 @@
 <div class="home-container">
-  <menunav></menunav>
+  <menunav *ngIf="!isMobile"></menunav>
   <div class="main-container">
-    <social-media [padding]="8"></social-media>
-    <home-presentation></home-presentation>
+    <social-media *ngIf="!isMobile" [padding]="8"></social-media>
+    <home-presentation [ngStyle]="{marginLeft: isMobile ? 0 : '15%'}"></home-presentation>
   </div>
 </div>
