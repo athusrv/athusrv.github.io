@@ -19,9 +19,12 @@ home-presentation {
 
   .name {
     font-size: 5rem;
-    color: $accent;
+    //color: $accent;
     font-weight: bold;
     margin-top: 8px;
+    background: linear-gradient(to left, #0186FF, #47b1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .role {

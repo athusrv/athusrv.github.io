@@ -12,6 +12,23 @@ menunav {
     align-items: center;
     position: relative;
 
+    .athusrv {
+      position: absolute;
+      left: 48px;
+      font-size: 1.5rem;
+
+      .first-name {
+        font-weight: bold;
+      }
+
+      .last-name {
+        font-weight: 900;
+        color: transparent;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+      }
+    }
+
     .menu-item {
       padding: 8px 16px;
       font-weight: bold;
