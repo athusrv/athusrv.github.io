@@ -13,4 +13,7 @@ export class HomePresentationComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onDownloadCV() {
+    window.open('assets/Athus CV.pdf', '_blank');
+  }
 }
